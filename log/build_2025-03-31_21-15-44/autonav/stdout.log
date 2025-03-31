@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/autonav/autonav.egg-info
+writing ../../build/autonav/autonav.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonav/autonav.egg-info/dependency_links.txt
+writing entry points to ../../build/autonav/autonav.egg-info/entry_points.txt
+writing requirements to ../../build/autonav/autonav.egg-info/requires.txt
+writing top-level names to ../../build/autonav/autonav.egg-info/top_level.txt
+writing manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+reading manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonav/autonav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/w-ok-e/autonav/build/autonav/build
+creating /home/w-ok-e/autonav/build/autonav/build/lib
+creating /home/w-ok-e/autonav/build/autonav/build/lib/autonav
+copying autonav/__init__.py -> /home/w-ok-e/autonav/build/autonav/build/lib/autonav
+running install
+running install_lib
+creating /home/w-ok-e/autonav/install/autonav/lib/python3.10/site-packages/autonav
+copying /home/w-ok-e/autonav/build/autonav/build/lib/autonav/__init__.py -> /home/w-ok-e/autonav/install/autonav/lib/python3.10/site-packages/autonav
+byte-compiling /home/w-ok-e/autonav/install/autonav/lib/python3.10/site-packages/autonav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/w-ok-e/autonav/install/autonav/share/ament_index
+creating /home/w-ok-e/autonav/install/autonav/share/ament_index/resource_index
+creating /home/w-ok-e/autonav/install/autonav/share/ament_index/resource_index/packages
+copying resource/autonav -> /home/w-ok-e/autonav/install/autonav/share/ament_index/resource_index/packages
+copying package.xml -> /home/w-ok-e/autonav/install/autonav/share/autonav
+running install_egg_info
+Copying ../../build/autonav/autonav.egg-info to /home/w-ok-e/autonav/install/autonav/lib/python3.10/site-packages/autonav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/w-ok-e/autonav/build/autonav/install.log'

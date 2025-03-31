@@ -1,0 +1,84 @@
+[0.102s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_node
+[1.762s] -- The C compiler identification is GNU 11.4.0
+[1.763s] -- The CXX compiler identification is GNU 11.4.0
+[1.763s] -- Detecting C compiler ABI info
+[1.763s] -- Detecting C compiler ABI info - done
+[1.764s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.764s] -- Detecting C compile features
+[1.764s] -- Detecting C compile features - done
+[1.764s] -- Detecting CXX compiler ABI info
+[1.764s] -- Detecting CXX compiler ABI info - done
+[1.765s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.765s] -- Detecting CXX compile features
+[1.765s] -- Detecting CXX compile features - done
+[1.765s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.765s] -- Found Python3: /home/w-ok-e/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter
+[1.766s] -- Found dynamixel_sdk: 3.7.60 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[1.779s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.925s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.948s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.989s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.403s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[2.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.584s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.868s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[2.984s] -- Found FastRTPS: /opt/ros/humble/include
+[3.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.332s] -- Found Threads: TRUE
+[3.505s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.602s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.693s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.738s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.780s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.183s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[4.613s] -- Configuring done (4.5s)
+[4.683s] -- Generating done (0.0s)
+[4.700s] -- Build files have been written to: /home/w-ok-e/autonav/build/turtlebot3_node
+[4.732s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_node
+[4.737s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_node -- -j12 -l12
+[4.805s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[4.810s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[4.810s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[4.810s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[4.810s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[4.811s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[4.811s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[4.812s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[4.812s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[4.813s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[4.833s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[55.037s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[56.465s] [ 85%] Built target turtlebot3_node_lib
+[56.496s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[67.824s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[73.185s] [100%] Built target turtlebot3_ros
+[73.199s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_node -- -j12 -l12
+[73.207s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_node
+[73.214s] -- Install configuration: ""
+[73.215s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/param
+[73.215s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[73.215s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[73.216s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[73.216s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[73.253s] -- Set non-toolchain portion of runtime path of "/home/w-ok-e/autonav/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[73.253s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[73.254s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[73.255s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[73.256s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[73.256s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[73.257s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[73.257s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[73.257s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[73.257s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[73.258s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[73.258s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[73.258s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[73.259s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.259s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[73.260s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[73.261s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[73.264s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_node

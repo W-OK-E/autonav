@@ -1,0 +1,46 @@
+[0.100s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_cartographer
+[1.756s] -- The C compiler identification is GNU 11.4.0
+[1.757s] -- The CXX compiler identification is GNU 11.4.0
+[1.758s] -- Detecting C compiler ABI info
+[1.759s] -- Detecting C compiler ABI info - done
+[1.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.761s] -- Detecting C compile features
+[1.762s] -- Detecting C compile features - done
+[1.762s] -- Detecting CXX compiler ABI info
+[1.762s] -- Detecting CXX compiler ABI info - done
+[1.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.763s] -- Detecting CXX compile features
+[1.764s] -- Detecting CXX compile features - done
+[1.764s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.764s] -- Found Python3: /home/w-ok-e/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter
+[2.035s] -- Configuring done (1.9s)
+[2.041s] -- Generating done (0.0s)
+[2.047s] -- Build files have been written to: /home/w-ok-e/autonav/build/turtlebot3_cartographer
+[2.059s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_cartographer
+[2.065s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_cartographer -- -j12 -l12
+[2.111s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_cartographer -- -j12 -l12
+[2.124s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_cartographer
+[2.130s] -- Install configuration: ""
+[2.130s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[2.131s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.132s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[2.132s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.133s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.133s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[2.134s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.134s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.135s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.135s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.136s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.136s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.137s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.138s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.138s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.138s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.139s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.140s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.141s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.141s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.142s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.144s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.146s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_cartographer

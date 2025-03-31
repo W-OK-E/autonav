@@ -1,0 +1,54 @@
+[0.028s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_bringup
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.338s] -- The CXX compiler identification is GNU 11.4.0
+[0.369s] -- Detecting C compiler ABI info
+[0.528s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.585s] -- Detecting C compile features - done
+[0.597s] -- Detecting CXX compiler ABI info
+[0.800s] -- Detecting CXX compiler ABI info - done
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.857s] -- Detecting CXX compile features - done
+[0.865s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.229s] -- Found Python3: /home/w-ok-e/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter
+[1.891s] -- Configuring done (1.9s)
+[1.897s] -- Generating done (0.0s)
+[1.902s] -- Build files have been written to: /home/w-ok-e/autonav/build/turtlebot3_bringup
+[1.917s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3/turtlebot3_bringup -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_bringup
+[1.921s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_bringup -- -j12 -l12
+[1.962s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --build /home/w-ok-e/autonav/build/turtlebot3_bringup -- -j12 -l12
+[1.968s] Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_bringup': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_bringup
+[1.973s] -- Install configuration: ""
+[1.974s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+[1.974s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+[1.974s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+[1.975s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+[1.975s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+[1.975s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+[1.975s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble
+[1.975s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
+[1.976s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
+[1.977s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
+[1.977s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+[1.978s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+[1.978s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/script
+[1.978s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+[1.978s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+[1.979s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[1.979s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[1.979s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[1.979s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[1.979s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[1.980s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[1.980s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[1.981s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[1.981s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[1.981s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[1.981s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[1.982s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[1.982s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[1.982s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[1.983s] -- Installing: /home/w-ok-e/autonav/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[1.987s] Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_bringup' returned '0': AMENT_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w-ok-e/autonav/install/turtlebot3_node:/home/w-ok-e/autonav/install/turtlebot3_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake --install /home/w-ok-e/autonav/build/turtlebot3_bringup
