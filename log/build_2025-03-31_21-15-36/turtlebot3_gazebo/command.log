@@ -1,2 +1,0 @@
-Invoking command in '/home/w-ok-e/autonav/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_gazebo
-Invoked command in '/home/w-ok-e/autonav/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/local/bin/cmake /home/w-ok-e/autonav/src/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/w-ok-e/autonav/install/turtlebot3_gazebo
